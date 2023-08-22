@@ -1,0 +1,78 @@
+#Inputs
+b=input("Enter Birth Month:")
+a=int(input("Enter Birth Date:"))
+#March
+if b=='March' or b=='march':
+    if 21<=a<=31:
+        print("you are an Aries")
+    elif 1<=a<=20:
+        print("You are an Pisces")
+#April
+elif b=='April' or b=='april':
+    if 1<=a<=19:
+        print("You are an Aries")
+    elif 20<=a<=30:
+        print("You are a Taurus")
+#May
+elif b=='May' or b=='may':
+    if 1<=a<=20:
+        print("You are a Taurus")
+    elif 21<=a<=31:
+        print("You are a Gemini")
+#June
+elif b=='June' or b=='june':
+    if 1<=a<=21:
+        print("You are a Gemini")
+    elif 22<=a<=30:
+        print("You are a Cancer")
+#July
+elif b=='July' or b=='july':
+    if 1<=a<=22:
+        print("You are a Cancer")
+    elif 23<=a<=31:
+        print("You are a Leo")
+#August
+elif b=='August' or b=='august':
+    if 1<=a<=22:
+        print("You are a Leo")
+    elif 23<=a<=31:
+        print("You are a Virgo")
+#September
+elif b=='september' or b=='September':
+    if 1<=a<=22:
+        print("You are a Virgo")
+    elif 23<=a<=30:
+        print("You are a Libra")
+#October
+elif b=='October' or b=='october':
+    if 1<=a<=23:
+        print("You are a Libra")
+    elif 24<=a<=31:
+        print("You are a Scorpio")
+#November
+elif b=='November' or b=='november':
+    if 1<=a<=21:
+        print("You are a Scorpio")
+    elif 22<=a<=30:
+        print("You are a Sagittarius")
+#December
+elif b=='December' or b=='december':
+    if 1<=a<=21:
+        print("You are a Sagittarius")
+    elif 22<=a<=31:
+        print("You are a Capricorn")
+#January
+elif b=='January' or b=='january':
+    if 1<=a<=19:
+        print("You are a Capricorn")
+    elif 20<=a<=31:
+        print("You are a Aquarius")
+#February
+elif b=='February' or b=='february':
+    if 1<=a<=18:
+        print("You are a Aquarius")
+    elif 19<=a<=31:
+        print("You are a Pisces")
+#else
+else:
+    print("Not a VALID BIRTHDATE OR MONTH")
